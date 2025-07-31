@@ -10,14 +10,14 @@ public class ListController {
     @GetMapping("/")
     public ModelAndView list() {
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("/WEB-INF/list");
+        mav.setViewName("list");
         return mav;
     }
     
     @GetMapping("/list")
     public ModelAndView listPage() {
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("/WEB-INF/list");
+        mav.setViewName("list");
         return mav;
     }
 } 
